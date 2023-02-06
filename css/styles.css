@@ -2,7 +2,7 @@
   --blanco: #ffffff;
   --oscuro: #212121;
   --amarillo: #ffc107;
-  --celeste: #0097a7;
+  --celeste: #00818f;
   --gris: #757575;
   --grisOscuro: #2c2c2c;
   --fuente-principal: "Krub", sans-serif;
@@ -191,7 +191,7 @@ header h1 {
 .tecnologia .iconos {
   height: 10rem;
   width: 10rem;
-  background-color: var(--grisOscuro);
+  background-color: var(--gris);
   border-radius: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -207,7 +207,7 @@ header h1 {
   .tecnologia .iconos {
     height: 15rem;
     width: 15rem;
-    background-color: var(--grisOscuro);
+    background-color: var(--gris);
     border-radius: 50%;
     display: flex;
     justify-content: space-evenly;
