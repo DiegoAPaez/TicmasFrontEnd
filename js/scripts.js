@@ -79,6 +79,7 @@ botonTareas.addEventListener("click", () => {
   }
 });
 const chevronsDown = `
+    Mostrar
     <svg
         xmlns="http://www.w3.org/2000/svg"
         class="icon icon-tabler icon-tabler-chevrons-down"
@@ -96,6 +97,7 @@ const chevronsDown = `
         <polyline points="7 13 12 18 17 13" />
     </svg>`;
 const chevronsUp = `
+    Ocultar
     <svg
         xmlns="http://www.w3.org/2000/svg"
         class="icon icon-tabler icon-tabler-chevrons-up"

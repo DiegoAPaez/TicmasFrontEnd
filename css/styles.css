@@ -1,11 +1,11 @@
 :root {
   --blanco: #ffffff;
   --oscuro: #212121;
-  --amarillo: #ffc107;
+  --amarillo: #ffeb65;
   --celeste: #00818f;
   --gris: #757575;
-  --grisOscuro: #2c2c2c;
-  --fuente-principal: "Krub", sans-serif;
+  --grisOscuro: #484848;
+  --fuente-principal: system-ui;
 }
 /* GENERALES */
 html {
@@ -138,7 +138,7 @@ header h1 {
 
 /* HERO */
 .hero {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -223,7 +223,7 @@ header h1 {
 
 /* INFORMACION PERSONAL */
 .informacion {
-  background-color: var(--gris);
+  background-color: var(--grisOscuro);
   width: min(60rem, 100%);
   margin: 0 auto;
   padding: 2rem;
@@ -238,7 +238,7 @@ header h1 {
 
 /* FORMACION */
 .contenedor-exp {
-  background-color: var(--gris);
+  background-color: var(--grisOscuro);
   width: min(90rem, 100%);
   margin: 2rem auto;
   padding: 2rem;
@@ -273,6 +273,9 @@ ul li {
   width: 90%;
   text-align: center;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .boton-animado:hover {
   cursor: pointer;
@@ -286,7 +289,7 @@ ul li {
   visibility: hidden;
 }
 .contenedor-formacion {
-  background-color: var(--gris);
+  background-color: var(--grisOscuro);
   width: min(90rem, 100%);
   margin: 2rem auto;
   height: auto;
@@ -314,7 +317,7 @@ ul li {
 
 /* CONTACTO */
 .formulario {
-  background-color: var(--gris);
+  background-color: var(--grisOscuro);
   width: min(90rem, 100%);
   margin: 0 auto;
   padding: 2rem;
